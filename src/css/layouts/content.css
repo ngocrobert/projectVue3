@@ -1,0 +1,200 @@
+.page-content {
+    width: 100%;
+    min-height: 500px;
+    min-width: 500px;
+    box-sizing: border-box;
+    padding: 16px;
+    box-shadow: inset 0 1.5px 2px 0 rgba(0, 0, 0, 0.1);
+    /* background-color: cornflowerblue; */
+}
+
+/* dialog Thêm danh hiệu */
+
+.right-toolbar .m-dialog .m-dialog-content {
+    /* top: 94px;
+    left: 150px; */
+    /* height: 527px; */
+    height: auto;
+    width: 600px;
+}
+
+/* .right-toolbar .m-dialog .m-dialog-content .m-dialog-close::before {
+
+} */
+
+.buttons {
+    position: absolute;
+    top: 14px;
+    right: 16px;
+}
+
+.m-dialog-button{
+    display: flex;
+    cursor: pointer;
+}
+
+.m-dialog .m-dialog-header {
+    padding: 24px 0 6px 24px;
+}
+
+.m-dialog-button .m-dialog-link,
+.m-dialog-button .m-dialog-close {
+    padding: 10px 8px;
+}
+
+.m-dialog-button .m-dialog-link::before {
+    content: "";
+    display: block;
+    background: transparent url("../../assets/icon/sprites.06b14dc5.svg") no-repeat -50px -50px;
+    height: 20px;
+    width: 20px;
+}
+
+.m-dialog-button .m-dialog-close::before {
+    content: "";
+    display: block;
+    background: transparent url("../../assets/icon/sprites.06b14dc5.svg") no-repeat -246px -26px;
+    height: 20px;
+    width: 20px;
+}
+
+.m-dialog  .m-dialog-header .m-dialog-title {
+    font-size: 20px;
+    min-height: 24px;
+}
+
+.m-row {
+    margin-bottom: 16px;
+}
+
+.m-dialog .m-dialog-body {
+    padding: 24px 24px 0;
+    position: relative;
+}
+
+.m-dialog .m-dialog-body label {
+    flex-direction: row;
+    /* margin-bottom: 8px; */
+}
+
+.m-dialog .m-input input{
+    width: 100%;
+}
+
+.m-input .border.m-error {
+    border: 1px solid #ef5350;
+}
+
+.error-text {
+    color: #ef5350;
+    margin-top: 6px;
+}
+
+.m-checkbox {
+    display: flex;
+    margin-top: 8px;
+}
+
+.m-checkbox label {
+    align-items: center;
+    width: 140px;
+}
+
+.m-checkbox .checkbox-title {
+    padding-left: 4px;
+    display: inline-block;
+    /* margin-bottom: 3px; */
+
+}
+
+.mr-10 select {
+    width: 266px;
+}
+
+.m-textarea {
+    background-color: #fff;
+    
+}
+
+.m-row .m-textarea-title {
+    margin-bottom: 8px;
+}
+
+.m-textarea .m-textarea-item{
+    width: 100%;
+    border: none;
+    padding: 6px 12px;
+    resize: none;
+    background: transparent;
+}
+
+/* .m-textarea-item:focus {
+    border-color: #1a73e8 !important; 
+} */
+
+.m-textarea .m-textarea-item:focus {
+    outline: none;
+}
+
+.m-editor .border {
+    outline: none;
+    border: 1px solid #e0e0e0;
+    border-radius: 3.5px;
+}
+
+.m-editor .border:hover,
+.m-editor .border:focus {
+    border-color: #1a73e8;
+}
+
+.m-editor .border:focus-within {
+    border-color: #1a73e8;
+}
+
+.m-row:last-child {
+    margin-bottom: 20px;
+}
+
+/* footer dialog */
+.m-dialog-footer {
+    padding: 12px 24px;
+    border-top: 1px solid #e0e0e0;
+}
+
+.m-dialog-footer .button {
+    margin-right: 10px;
+}
+
+.m-dialog-footer .btn-save-add {
+    border: 1px solid #2979ff;
+    color: #2979ff;
+    background: #fff;
+    padding: 0;
+    outline: none;
+}
+
+.m-dialog-footer .btn-save-add:hover {
+    background: #eef4ff;
+}
+
+.m-dialog-footer .btn-save-add:active {
+    background: #0062cc;
+    
+}
+
+.m-dialog-footer .btn-save-add .button__text:active {
+    color: #fff;
+}
+
+.m-dialog-footer .btn-save-add .button__text {
+    color: #2979ff;
+    display: inline-block;
+    white-space: nowrap;
+    padding: 0 16px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+/* input[type="checkbox"]:hover {
+    background-color: red;
+} */

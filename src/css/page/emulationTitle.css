@@ -1,0 +1,380 @@
+.m-page-header {
+    margin-bottom: 16px;
+    width: 100%;
+    /* background-color: aqua; */
+}
+
+.m-page-header .m-page-tittle {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 35px;
+}
+
+.m-page-toolbar {
+    display: flex;
+    /* background-color: chocolate; */
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.m-page-toolbar .left-toolbar {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    margin-left: 0;
+}
+
+.m-page-toolbar .left-toolbar .m-input, label {
+    margin: 0;
+}
+
+.m-page-toolbar .left-toolbar .button {
+    background-color: #fff;
+}
+
+.m-page-toolbar .left-toolbar .button__text{
+    color: #000;
+}
+
+/* filter */
+.filter-group {
+    position: relative;
+}
+
+.filter-group .button:hover{
+    background-color: #f4f5f8;
+}
+
+.button__icon.filter:before {
+    background-position: -96px -48px;
+}
+
+.icon-filter::before {
+    content: "";
+    position: absolute;
+    background: transparent url(../../assets/icon/sprites.06b14dc5.svg) no-repeat;
+    height: 24px;
+    width: 24px;
+    left: 16px;
+}
+
+.m-page-toolbar .left-toolbar .filter-group {
+    margin-left: 12px;
+}
+
+/* .m-page-toolbar .left-toolbar .input-search {
+    padding-bottom: 12px;
+} */
+
+
+/* button Add */
+.m-page-toolbar .button__icon {
+    width: 24px;
+    height: 24px;
+    padding-left: 0;
+}
+
+.m-page-toolbar .button__text {
+    padding: 0;
+}
+
+.m-page-grid {
+    background-color: #fff;
+    border-radius: var(--border-radius);
+    box-shadow: 0 0 11px rgba(0, 0, 0, 0.1);
+}
+
+.disabled {
+    opacity: .4;
+}
+
+/* input search */
+.row-input .input-icon {
+    align-items: normal;
+}
+
+.input-search {
+    margin-right: 6px;
+    margin-top: 6px;
+    cursor: pointer;
+}
+
+.icon24.input-search {
+    height: 24px;
+    width: 24px;
+    position: absolute;
+}
+
+.icon24::before {
+    content: "";
+    position: absolute;
+    background: transparent url(../../assets/icon/sprites.06b14dc5.svg) no-repeat;
+    height: 24px;
+    width: 24px;
+    left: 0;
+    top: 0;
+    background-position: -289px -24px;
+
+}
+
+
+/* set scroll bar table */
+
+/* .m-outer-wrapper {
+    max-width: fit-content;
+    max-height: fit-content;
+}
+
+.row-table {
+    overflow-x: scroll;
+    overflow-y: scroll;
+    height: fit-content;
+    max-height: 66vh;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 2px;
+    text-indent: initial;
+} 
+
+table th {
+    position: sticky;
+    top: 0px;
+    background-color: #fff;
+    outline: 1px solid #ddd;
+} */
+
+/* .row-sticky {
+    position: sticky;
+    left: 0px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    outline: 1px solid #ddd;
+} */
+
+/* .multiple-cell {
+    text-align: center;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+    left: 0px;
+    background-color: #fff;
+    outline: 1px solid #ddd;
+}
+
+table th.multiple-cell {
+    width: 53px;
+    max-width: 53px;
+    min-width: 53px;
+    z-index: 1;
+} */
+
+.row-selected td.multiple-cell{
+    background-color: #e0ebff;
+}
+
+
+tr:hover td.multiple-cell {
+    background-color: #fbe9e7;
+    cursor: pointer;
+}
+
+/* CACH 2 set scroll */
+
+/* .row-table {
+    overflow: auto;
+    max-height: 66vh;
+}
+
+table {
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 2px;
+}
+
+th {
+    display: table-cell;
+    position: relative;
+    top: 0px;
+    background-color: #fff;
+    outline: 1px solid #ddd;
+}
+
+.multiple-cell {
+    text-align: center;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+    left: 0px;
+    background-color: #fff;
+    outline: 1px solid #ddd;
+    z-index: 1;
+}
+
+
+.row-selected td.multiple-cell{
+    background-color: #e0ebff;
+}
+
+
+tr:hover td.multiple-cell {
+    background-color: #fbe9e7;
+    cursor: pointer;
+}
+
+.scroller::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+.scroller::-webkit-scrollbar {
+    border-radius: 10px;
+    display: block;
+    overflow: auto;
+    height: 8px;
+    width: 8px;
+    background: #ececed;
+}
+
+.scroller::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #b5b5b5;
+    -webkit-box-shadow: inset 0 0 6px rgb(0,0,0,0.2);
+}
+
+.scroller::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgb(239,239,244);
+    background-color: #ececec;
+}
+
+.scroller::-webkit-scrollbar-track-piece {
+    background-color: #fff;
+    width: 8px;
+    border-radius: 2px;
+} */
+
+/* C3 set scroll */
+
+.m-outer-wrapper {
+    max-width: fit-content;
+    max-height: fit-content;
+}
+
+.row-table {
+    height: fit-content;
+    max-height: 66vh;
+    overflow: scroll;
+}
+
+table {
+    text-align: center;
+    border-collapse: separate;
+    border-spacing: 2px;
+    text-indent: initial;
+}
+
+
+
+/* table th,
+table td {
+    white-space: nowrap;
+    padding: 10px 20px;
+} */
+table tr th:first-child,
+table td:first-child {
+    position: sticky;
+    width: 100px;
+    left: 0;
+    z-index: 10;
+    background-color: #fff;
+    /* border-right: 1px solid #ddd; */
+    /* outline-style: 1px red; */
+    outline: 1px solid #ddd;
+
+}
+
+table tr th:first-child {
+    max-width: 53px !important;
+    min-width: 53px !important;
+    z-index: 11;
+    /* border-bottom: 1px solid #ddd; */
+    /* background-color: red; */
+    outline: 1px solid #ddd;
+}
+
+table tr td {
+    z-index: 12;
+    /* border-right: 1px solid #ddd; */
+    /* outline: 1px solid #ddd; */
+}
+
+table tr th{
+    position: sticky;
+    top: 0;
+    z-index: 9;
+    background-color: #fff;
+    outline: 0.5px solid #ddd;
+}
+
+/* th.ms-th {
+    border-bottom: 1px solid #e0e1ef;
+    border-right: 1px solid #e0e1ef;
+} */
+
+/* .multiple-cell {
+    outline: 0.1px solid #ddd;
+} */
+
+
+
+/* icon status */
+.m-status {
+    display: flex;
+    flex-direction: row;
+}
+.icon-status {
+    background-color: transparent;
+    width: 16px;
+    height: 16px;
+    position: relative;
+    margin-right: 3px;
+}
+
+.icon-active {
+    background-color: #2979ff;
+}
+
+.icon-not-active {
+    background-color: #9e9e9e;
+}
+
+.icon-status .icon-image {
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    overflow: hidden;
+    position: absolute;
+    top: 5px;
+    left: 1px;
+}
+
+
+/* Filter CSS */
+.box-footer .right-content .btn-filter {
+    background: #50B83C;
+}
+
+.box-footer .right-content .btn-filter:hover {
+    background-color: #57C841;
+}
+
+.box-footer .right-content .btn-filter .button__text {
+    color: #fff;
+}
+
+/* button Thêm danh hiệu */
+.right-toolbar .m-dialog {
+    z-index: 13;
+}

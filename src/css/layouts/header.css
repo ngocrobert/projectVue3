@@ -1,0 +1,144 @@
+.header {
+    display: flex;
+    height: 56px;
+    width: 100%;
+    background-color: #fff;
+}
+
+.header .header-left {
+    display: flex;
+    width: 236px;
+    height: 100%;
+    align-items: center;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+
+.header .header-left .sibar {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    /* padding: 0 16px; */
+    margin: 0 16px;
+    background-image: url(../../assets/img/toggle.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.header .header-left .logo {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 24px;
+    cursor: pointer;
+}
+
+.header .header-left .logo .nav-logo {
+    display: block;
+    width: 32px;
+    height: 32px;
+    background: url(https://cegovapp.misacdn.net/cegov/img/ic_cegoLogo_new.89475e3e.svg);
+    background-size: 32px;
+    margin-right: 12px;
+}
+
+.header .header-left .logo .logo-title {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header .header-right {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 100%;
+    height: 100%;
+    /* background-color: green; */
+}
+
+.header .header-right .right-action {
+    position: relative;
+    width: 32px;
+    height: 28px;
+    border-radius: 50%;
+}
+
+.header .header-right .right-action:hover {
+    background-color: #f5f5f5;
+    cursor: pointer;
+}
+
+.header .header-right .notify::before {
+    position: absolute;
+    left: 4px;
+    content: "";
+    background: transparent url(../../assets/icon/sprites.06b14dc5.svg) no-repeat;
+    height: 24px;
+    width: 24px;
+    background-position: -24px -48px;
+}
+
+.header .header-right .help::before {
+    content: "";
+    position: absolute;
+    left: 4px;
+    background: transparent url(../../assets/icon/sprites.06b14dc5.svg) no-repeat;
+    height: 24px;
+    width: 24px;
+    background-position: -48px -48px;
+}
+
+.header .header-right .document-help::before {
+    content: "";
+    position: absolute;
+    left: 4px;
+    background-image:  url(https://cegovapp.misacdn.net/cegov/img/ic_document_help.5a303db8.svg);
+    height: 24px;
+    width: 24px;
+    background-position: -24px -48px;
+}
+
+.header .header-right .setting::before {
+    content: "";
+    position: absolute;
+    left: 4px;
+    background: transparent url(../../assets/icon/sprites.06b14dc5.svg) no-repeat;
+    height: 24px;
+    width: 24px;
+    background-position: -264px -168px;
+}
+
+.header .header-right .user-avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 48px;
+    height: 100%;
+    background-size: contain;
+    margin: 10px 0 10px 8px;
+    box-sizing: border-box;
+}
+
+.header .header-right .user-avatar:hover {
+    cursor: pointer;
+    background-color: #f5f5f5;
+}
+
+.header-right .user-avatar .avatar {
+    border: none;
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+}
+
+.margin-header-right {
+    margin: 14px 5px;
+}

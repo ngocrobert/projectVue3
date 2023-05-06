@@ -1,0 +1,76 @@
+/* @import url(./components/button.css); */
+/* @import url(./components/combobox.css);
+@import url(./components/input.css);
+@import url(./components/datepicker.css);
+@import url(./components/contextmenu.css);
+@import url(./components/dialog.css);
+@import url(./components/table.css);
+@import url(./components/paging.css);
+@import url(./components/filterbox.css);
+@import url(./components/icon.css);
+
+
+@import url(./components/popup.css);
+
+@import url(./layouts/content.css);
+@import url(./layouts/header.css);
+@import url(./layouts/navbar.css); */
+
+/* css Libs */
+/* @import url(../libs/mcombobox/css/mcombobox.css); */
+
+@import url(../assets/font/fontawesome-5.15.1/css/all.min.css);
+@import url(../assets/icofont/icofont.min.css);
+
+
+/* Dinh nghia cac css chung cho toan project */
+/* Font chu, size chu, cac bien dung chung */
+body {
+    font-family: MISA font;
+    margin: 0;
+    background-color: #f4f5f8;
+    overflow: hidden;
+    
+}
+
+* {
+    font-size: 14px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: MISA font!important;
+    /* src: url(../assets/font/Roboto/Roboto-Regular.ttf); */
+    src: url(../assets/font/GoogleSans-Regular.otf);
+
+}
+
+:root {
+    --color-primary: #2979ff;
+    --border-radius: 4px;
+    --border-color: #e0e0e0;
+    --border-color-hover: #1a73e8;
+    --color-active: #0062cc;
+    --height-primary: 36px;
+}
+
+.main {
+    display: flex;
+    width: 100%;
+    /* height: calc(100vh - 56px); */
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.mr-10{
+    margin-right: 10px;
+    width: 266px;
+}
+

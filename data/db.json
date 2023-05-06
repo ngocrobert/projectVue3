@@ -1,0 +1,72 @@
+{
+  "emulationTitles": [
+    {
+      "id": 1,
+      "name": "Lao động tiên tiến",
+      "code": "LĐTTCX",
+      "applyObject": "Cá nhân",
+      "commendationLevel": "Cá Xã/tương đương",
+      "MovementType": "Thường xuyên",
+      "Note": "abc",
+      "Inactive": "Sử dụng"
+    },
+    {
+      "id": 2,
+      "name": "Lao động tiên tiến",
+      "code": "LĐTTCX",
+      "applyObject": "Tập thể",
+      "commendationLevel": "Cá Xã/tương đương",
+      "MovementType": "Thường xuyên",
+      "Note": "abc",
+      "Inactive": "Sử dụng"
+    },
+    {
+      "id": 3,
+      "name": "Lao động tiên tiến",
+      "code": "LĐTTCX",
+      "applyObject": "Cá nhân",
+      "commendationLevel": "Cá Xã/tương đương",
+      "MovementType": "Thường xuyên",
+      "Note": "abc",
+      "Inactive": "Sử dụng"
+    },
+    {
+      "id": 4,
+      "name": "Lao động tiên tiến",
+      "code": "LĐTTCX",
+      "applyObject": "Tập thể",
+      "commendationLevel": "Cá Xã/tương đương",
+      "MovementType": "Thường xuyên",
+      "Note": "abc",
+      "Inactive": "Ngừng sử dụng"
+    },
+    {
+      "id": 5,
+      "name": "Lao động tiên tiến",
+      "code": "LĐTTCX",
+      "applyObject": "Cá nhân",
+      "commendationLevel": "Cá Xã/tương đương",
+      "MovementType": "Thường xuyên",
+      "Note": "abc",
+      "Inactive": "Ngừng sử dụng"
+    }
+  ],
+  "commendationLevel": [
+    {
+      "id": 1,
+      "name": "Cấp nhà nước"
+    },
+    {
+      "id": 2,
+      "name": "Cấp Tỉnh/tương đương"
+    },
+    {
+      "id": 3,
+      "name": "Cấp Huyện/tương đương"
+    },
+    {
+      "id": 4,
+      "name": "Cấp Xã/tương đương"
+    }
+  ]
+}

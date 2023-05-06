@@ -1,0 +1,175 @@
+select{
+    margin: 8px 0px;
+    width: 300px;
+    height: 36px;
+    padding: 0 12px;
+    border-radius: 4px;
+    border: 1px solid #e6e6e6;
+    font-family: MISA font;
+    font-size: 14px;
+    /* appearance: none; */ /*cai dat icon dropdown */
+    
+}
+
+
+select:hover {
+    background-color: #F6F6F6;
+    font-size: 14px;
+    color: #9E9E9E;
+}
+
+select:focus {
+    /* border: 1px solid #50b83c; */
+    border: 1px solid var(--border-color-hover);
+    outline: none;
+    /* border-radius: var(--border-radius); */
+}
+
+select:has(option:disabled:checked[hidden]) {
+    color: #9E9E9E;
+}
+
+select option {
+    color: black;
+}
+
+.dropdown {
+    /* position: relative; */
+    background-image: url(../../assets/icon/arrow-down.svg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding-right: 8px;
+    appearance: none;
+    overflow-y: auto;
+}
+
+option {
+    overflow-y: scroll;
+}
+
+.dropdown::-webkit-scrollbar-track {
+    background-color: #fff;
+}
+
+.error-drop {
+  border: 1px solid #E61D1D;
+}
+
+.icon-close {
+  position: absolute;
+  font-size: 16px;
+  box-sizing: border-box;
+  right: 10px;
+
+}
+
+/* Dropdown tham khao */
+.custom-select {
+    /* position: relative; */
+    font-family: Arial;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px 4px;
+    margin-top: 8px;
+  }
+  
+  .custom-select:hover {
+      border: 1px solid #50B83C;
+  }
+  
+  .custom-select select {
+    display: none; /*hide original SELECT element:*/
+  }
+  
+  
+  .select-selected {
+    /* background-color: red; */
+    border: 1px solid #50B83C;
+    border-radius: 10px 10px 0px 0px;
+  }
+  
+  .select-selected-bottom-rounded {
+    border-radius: 4px 4px 4px 4px;
+  }
+  
+  
+  /*style the arrow inside the select element:*/
+  .select-selected:after {
+    position: absolute;
+    content: "";
+    top: 45%;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #9E9E9E transparent transparent transparent;
+  }
+  
+  /*point the arrow upwards when the select box is open (active):*/
+  
+  
+  /*set the styling and height for the list when the select box is open (active), the overflow-y property controls the scrolling:*/
+  .select-items{
+    border-radius: 4px 4px 4px 4px;
+    height: 196px;
+    overflow-y: auto;
+    position: absolute;
+    background-color: #fff;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    box-shadow: 0px 4px 16px rgba(23,27,42,0.24);
+  }
+  
+  /*style the items (options), including the selected item:*/
+  .select-items .select-selected {
+    border-color: red;
+  }
+  
+  .select-items div{
+    border-color:  #ccc;
+  }
+  .select-items div,.select-selected {
+    color: #000;
+    padding: 8px 12px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  /*hide the items when the select box is closed:*/
+  .select-hide {
+    display: none;
+  }
+  
+  .select-items div:hover, .same-as-selected {
+    background-color: rgba(80,184,60,0.1)
+  /*   border-radius: 4px 4px 4px 4px; */
+  /*   -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1); */
+  }
+  
+  /* scrollbar width */
+  .select-items::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* scrollbar track */
+  .select-items::-webkit-scrollbar-track {
+    border-radius: 0px 0px 10px 0px;
+  }
+   
+  /* scrollbar handle */
+  .select-items::-webkit-scrollbar-thumb {
+    background: #9E9E9E;
+    border-radius: 10px; /* optional rounded handle */
+   
+                                               
+  }
+  
+  /* scrollbar handle on hover */
+  .select-items::-webkit-scrollbar-thumb:hover {
+    background: #9E9E9E;;
+    
+  }
+

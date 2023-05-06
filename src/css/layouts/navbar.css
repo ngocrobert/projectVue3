@@ -1,0 +1,245 @@
+.navbar {
+    width: 204px;
+    height: calc(100% - 56px);
+    flex-shrink: 0;
+    box-sizing: border-box;
+    background-color: #fff;
+    box-shadow: inset 0 1.5px 2px 0 rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    height: 100%;
+}
+
+.navbar .menu {
+    padding: 0 0 4px 0;
+    margin: 0;
+}
+
+.content {
+    margin-top: 8px;
+}
+
+.content .item {
+    min-height: 42px;
+    height: 0;
+}
+
+.content .item div {
+    box-sizing: border-box;
+    padding-left: 26px;
+    /* font-size: 24px; */
+}
+
+.menu-item-admin {
+    display: block;
+    color: #000;
+    margin: 8px 8px 8px 0;
+    position: relative;
+}
+
+.menu-item-admin:hover {
+    background: #eff7ff;
+    color: #ff6d00;
+    /* border-radius: 8px; */
+    cursor: pointer;
+}
+
+.active {
+    background-color: rgba(255, 0, 0,0.1);
+    color: #ff6d00;
+}
+
+/* .item.item-focus, */
+/* .router-link-active {
+    background-color: rgba(255, 0, 0,0.1);
+    color: #ff6d00;
+} */
+
+/* .icon-24 img{
+    width: 24px;
+    height: 24px;
+} */
+
+
+.item span {
+    font-weight: 550;
+}
+
+/* ảnh icon*/
+
+.menu-item-admin.dashboard:before {
+    background-image: url(https://cegovapp.misacdn.net/cegov/img/ic_dashboard_default.110fa5f3.svg);
+}
+
+.menu-item-admin.movement:before {
+    background-image: url(https://cegovapp.misacdn.net/cegov/img/ic_movement_default.102c9e3d.svg);
+}
+
+.menu-item-admin.reward:before {
+    background-image: url(https://cegovapp.misacdn.net/cegov/img/ic_reward_default.156d6945.svg);
+}
+
+.menu-item-admin.decision:before {
+    background-image: url(https://cegovapp.misacdn.net/cegov/img/ic_decision_menu_default.cae653f2.svg);
+}
+
+.menu-item-admin.profile:before {
+    background-image: url(https://cegovapp.misacdn.net/cegov/img/ic_profile_default.d730fb8f.svg);
+}
+
+.menu-item-admin.search:before {
+    background-image: url(https://cegovapp.misacdn.net/cegov/img/ic_search_default.903d371b.svg);
+}
+
+.menu-item-admin.report:before {
+    background-image: url(https://cegovapp.misacdn.net/cegov/img/ic_report_default.67157268.svg);
+}
+
+.menu-item-admin.category:before {
+    background-image: url(https://cegovapp.misacdn.net/cegov/img/ic_category_default.d46f95b8.svg);
+}
+
+.menu-item-admin.setting:before {
+    background-image: url(https://cegovapp.misacdn.net/cegov/img/ic_setting_default.be222d4a.svg);
+}
+
+.menu-item-admin.guide:before {
+    background-image: url(https://cegovapp.misacdn.net/cegov/img/ic_guide_default.186420dc.svg);
+}
+
+/* ảnh icon khi active/hover */
+
+.menu-item-admin:hover.dashboard::before,
+.menu-item-admin.active.dashboard::before {
+    background-image: url(https://cegovapp.misacdn.net/cegov/img/ic_dashboard.41eba193.svg);
+}
+
+.menu-item-admin:hover.movement::before,
+.menu-item-admin.active.movement::before {
+    background-image: url(https://cegovapp.misacdn.net/cegov/img/ic_movement.629f9e51.svg);
+}
+
+.menu-item-admin:hover.reward::before,
+.menu-item-admin.active.reward::before {
+    background-image: url(https://cegovapp.misacdn.net/cegov/img/ic_reward.025cd252.svg)
+}
+
+.menu-item-admin:hover.decision::before,
+.menu-item-admin.active.decision::before {
+    background-image: url(https://cegovapp.misacdn.net/cegov/img/ic_decision_menu.3fd2f620.svg)
+}
+
+.menu-item-admin:hover.profile::before,
+.menu-item-admin.active.profile::before {
+    background-image: url(https://cegovapp.misacdn.net/cegov/img/ic_profile.628cd9e5.svg)
+}
+
+.menu-item-admin:hover.search::before,
+.menu-item-admin.active.search::before {
+    background-image: url(https://cegovapp.misacdn.net/cegov/img/ic_search.3b67786b.svg)
+}
+
+.menu-item-admin:hover.report::before,
+.menu-item-admin.active.report::before {
+    background-image: url(https://cegovapp.misacdn.net/cegov/img/ic_report.87c66795.svg)
+}
+
+.menu-item-admin:hover.category::before,
+.menu-item-admin.active.category::before {
+    background-image: url(https://cegovapp.misacdn.net/cegov/img/ic_category.f257fcc6.svg)
+}
+
+.menu-item-admin:hover.setting::before,
+.menu-item-admin.active.setting::before {
+    background-image: url(https://cegovapp.misacdn.net/cegov/img/ic_setting.ed993518.svg)
+}
+
+.menu-item-admin:hover.guide::before,
+.menu-item-admin.active.guide::before {
+    background-image: url(https://cegovapp.misacdn.net/cegov/img/ic_guide.b54f8d8a.svg)
+}
+
+.menu-item-admin:before {
+    content: "";
+    display: block;
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    top: 12px;
+    left: 20px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+.content .m-hd {
+    border-top: 2px solid #ccc;
+    padding: 4px 0 16px 0;
+}
+
+.content .m-setting {
+    border-top: 2px solid #ccc;
+    /* padding: 4px 0 4px 0; */
+}
+
+.toggle-button {
+    margin: 0px 8px 20px 8px;
+    border-radius: 8px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #edf1f5;
+}
+
+.toggle-button:before {
+    content: "";
+    display: inline-block;
+    margin-top: 8px;
+    margin-left: 16px;
+    height: 24px;
+    width: 24px;
+    background: transparent url(https://cegovapp.misacdn.net/cegov/img/ic_toggle.4abb3c52.svg) no-repeat;
+    transform: rotate(0deg);
+    transition-duration: .4s;
+    box-sizing: border-box;
+}
+
+.toggle-button .toggle-title {
+    position: absolute;
+}
+
+/* icon arrow */
+.arrow-right {
+    background: url(https://cegovapp.misacdn.net/cegov/img/ic_arrow_black_right.c6cd6189.svg);
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    right: 12px;
+    top: 12px;
+    opacity: 1;
+    transition: opacity .6s linear;
+}
+
+.menu-item-admin.active .arrow-right,
+.menu-item-admin:hover .arrow-right {
+    background: url(https://cegovapp.misacdn.net/cegov/img/ic_arrow_color_right.9db568c7.svg);
+}
+
+
+/* .menu-item-admin.category:before {
+    background-image: url(https://cegovapp.misacdn.net/cegov/img/ic_category_default.d46f95b8.svg);
+} */
+
+/* .menu-item-admin::before {
+    content: "";
+    display: block;
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    top: 8px;
+    left: 12px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+} */
+
+
+

@@ -1,0 +1,61 @@
+.m-check-container {
+    /* border: 1px solid black; */
+    /* display: inline-block; */
+    /* box-sizing: border-box; */
+    height: 24px;
+    width: 140px;
+    position: relative;
+    margin: auto;
+    /* margin-top: 8px; */
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+}
+
+input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 24px;
+    height: 24px;
+    /* background-color: #d5d5d5; */
+    background: url(https://cegovapp.misacdn.net/cegov/img/ic_checkbox_gray.545380ea.svg) no-repeat;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+.m-checkbox--text {
+    padding-left: 4px;
+    padding-top: 4px;
+    cursor: pointer;
+}
+
+/* input[type="checkbox"]::after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f00c";
+    font-size: 50px;
+    color: white;
+    display: none;
+} */
+
+input[type="checkbox"]:hover,
+input[type="checkbox"]:focus {
+    /* background-color: #a5a5a5; */
+    background: url(https://cegovapp.misacdn.net/cegov/img/ic_checkbox_hover.d04300f4.svg) no-repeat;
+}
+
+/* input[type="checkbox"]:not(:disabled):not(:checked):hover {
+    background: url(https://cegovapp.misacdn.net/cegov/img/ic_checkbox_hover.d04300f4.svg) no-repeat;
+} */
+
+input[type="checkbox"]:checked {
+    background: url(https://cegovapp.misacdn.net/cegov/img/ic_checkbox_active.5a4982e1.svg) no-repeat;
+}
+
+/* input[type="checkbox"]:checked::after {
+    display: block;
+} */

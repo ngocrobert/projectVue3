@@ -1,0 +1,19 @@
+.icon24 {
+    width: 24px;
+    height: 24px;
+    position: relative;
+}
+
+.icon24::before {
+   content: "";
+   position: absolute;
+   background: transparent url("../../assets/icon/sprites.06b14dc5.svg") no-repeat;
+   height: 24px;
+   width: 24px;
+   top: 0;
+   left: 0;
+}
+
+.icon24.deleteX::before {
+    background-position: -240px -24px;
+}
